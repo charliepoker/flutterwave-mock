@@ -22,11 +22,7 @@ function toggle() {
     input.setAttribute('type', 'password');
   }
 }
-form.addEventListener('submit', function (e) {
-  e.preventDefault();
-});
-
 secret.addEventListener('click', toggle);
 expose.addEventListener('click', toggle);
 
-// 
+
